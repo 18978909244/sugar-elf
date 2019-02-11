@@ -6,7 +6,7 @@
     "commit": "git-cz"
   },
   "bin": {
-    "elf": "./bin/elf.js"
+    "sugar-elf": "./bin/elf.js"
   },
   "engines": {
     "node": ">=6"
