@@ -2,10 +2,10 @@
 
 const request = require('request')
 const ora = require('ora')
-
+const url = require('./list')
 const spinner = ora('Loading template list').start()
 request({
-  url: 'https://api.github.com/users/elf-templates/repos',
+  url,
   headers: {
     'User-Agent': 'elf-cli'
   }
